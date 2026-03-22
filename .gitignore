@@ -1,0 +1,4 @@
+*.pdf
+
+src/__pycache__
+notebooks/.*
