@@ -1,7 +1,7 @@
 
 
 def filtro_spoilers():
-   
+
     review = """La película sigue a un grupo de astronautas que viajan a Marte
     en una misión de rescate. El capitán Torres lidera al equipo a través
     de tormentas solares y fallos en el sistema de navegación. Al llegar
@@ -10,13 +10,13 @@ def filtro_spoilers():
     al equipo y logran volver a la Tierra en una cápsula de emergencia.
     El final revela que Torres sobrevivió gracias a un pasaje secreto."""
 
-    
+
     lista_spoilers = []
     lista_spoilers = input('Ingrese las palabras spoilers separadas por coma: ').split(', ')
 
 
     lista_review = review.split()
-        
+
 
     output = []
 
@@ -32,5 +32,7 @@ def filtro_spoilers():
             output.append(palabra)
 
     print(' '.join(output))
+
+filtro_spoilers()
 
 

@@ -1,6 +1,6 @@
 
 def duracion_playlist():
-	
+
 	playlist = [
 	{"title": "Bohemian Rhapsody", "duration": "5:55"},
 	{"title": "Hotel California", "duration": "6:30"},
