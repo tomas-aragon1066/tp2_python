@@ -170,4 +170,3 @@ def concurso_cocina():
 
 
 
-concurso_cocina()

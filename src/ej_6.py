@@ -12,7 +12,7 @@ def contar_hashtags():
     "Finde de lluvia, maratón de series #SerieAdicta #Relax",
     "Workshop de #InteligenciaArtificial en la universidad #Tecnología #Programación"
     ]
-    
+
     hashtags = []
     for post in posts:
         palabras = post.split()
@@ -21,11 +21,10 @@ def contar_hashtags():
                 hashtags.append(palabra)
 
     c = Counter(hashtags)
-    
+
     for item in c:
         if c[item] > 1:
             print(f"{item}: {c[item]}")
 
     print(f"Total hashtags unicos {len(c)}")
 
-contar_hashtags()
